@@ -51,11 +51,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourtmlawyer.com/blog-posts/uspto-base-application-surcharges.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://yourtmlawyer.com/blog-posts/specimen-of-use-pitfalls.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -112,13 +107,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourtmlawyer.com/blog-posts/trademark-registration-cost-2026.html</loc>
+    <loc>https://yourtmlawyer.com/blog-posts/trademark-business-name-vs-florida-llc.html</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourtmlawyer.com/blog-posts/trademark-business-name-vs-florida-llc.html</loc>
+    <loc>https://yourtmlawyer.com/blog-posts/descriptive-trademark-refusal-acquired-distinctiveness.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://yourtmlawyer.com/blog-posts/generic-terms-trademark-genericness.html</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
