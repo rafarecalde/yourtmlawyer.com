@@ -36,7 +36,7 @@
     <!-- Header -->
     <header>
         <div class="container header-content">
-            <a href="#" class="logo">
+            <a href="index.html" class="logo">
                 <span class="logo-icon">⚖️</span>
                 <span>YourTMlawyer</span>
             </a>
@@ -46,7 +46,8 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#process">Process</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <a href="#contact" class="contact-button">Contact Us</a>
@@ -103,30 +104,40 @@
 <section id="services" class="services">
     <div class="container">
         <div class="section-title">
-            <h2>What We Do</h2>
-            <p>Straightforward trademark registration services by experienced attorneys—for one flat fee.</p>
+            <h2>Trademark Practice Areas</h2>
+            <p>Attorney-led USPTO services for Florida businesses and brands nationwide—clear process, flat-fee options where appropriate.</p>
         </div>
         <div class="services-grid">
-            <div class="service-card">
+            <a href="trademark-search.html" class="service-card" style="text-decoration:none;color:inherit;">
                 <div class="service-icon"><i class="fas fa-search"></i></div>
                 <h3>Trademark Search</h3>
-                <p>We run a comprehensive clearance search to help avoid conflicts and surprises before you file.</p>
-            </div>
-            <div class="service-card">
+                <p>Comprehensive clearance search to help identify conflicts before you file.</p>
+            </a>
+            <a href="trademark-application.html" class="service-card" style="text-decoration:none;color:inherit;">
                 <div class="service-icon"><i class="fas fa-file-alt"></i></div>
-                <h3>Application Preparation</h3>
-                <p>We draft and file your trademark application with the USPTO—including crafting strong goods/services descriptions.</p>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><i class="fas fa-comments"></i></div>
-                <h3>USPTO Communication</h3>
-                <p>We handle all correspondence and track your application status—so you don’t have to.</p>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><i class="fas fa-dollar-sign"></i></div>
-                <h3>Flat Fee Pricing</h3>
-                <p>One all-inclusive fee covers attorney time, strategy, and filing. No surprises.</p>
-            </div>
+                <h3>Trademark Application</h3>
+                <p>Attorney drafting and filing with the USPTO, including goods and services descriptions.</p>
+            </a>
+            <a href="office-action-response.html" class="service-card" style="text-decoration:none;color:inherit;">
+                <div class="service-icon"><i class="fas fa-reply"></i></div>
+                <h3>Office Action Response</h3>
+                <p>Strategic responses when the USPTO raises refusals or requirements.</p>
+            </a>
+            <a href="amazon-brand-registry.html" class="service-card" style="text-decoration:none;color:inherit;">
+                <div class="service-icon"><i class="fas fa-shopping-cart"></i></div>
+                <h3>Amazon Brand Registry</h3>
+                <p>Federal trademark support aligned with Amazon Brand Registry eligibility.</p>
+            </a>
+            <a href="trademark-monitoring.html" class="service-card" style="text-decoration:none;color:inherit;">
+                <div class="service-icon"><i class="fas fa-eye"></i></div>
+                <h3>Trademark Monitoring</h3>
+                <p>Ongoing watch for confusingly similar filings and marketplace misuse.</p>
+            </a>
+            <a href="trademark-opposition.html" class="service-card" style="text-decoration:none;color:inherit;">
+                <div class="service-icon"><i class="fas fa-gavel"></i></div>
+                <h3>Trademark Opposition</h3>
+                <p>High-level guidance on opposing or defending marks at the TTAB.</p>
+            </a>
         </div>
     </div>
 </section>
@@ -387,40 +398,86 @@
                     </div>
                 </div>
                 <div class="contact-form">
-                    <h3>Send Us a Message</h3>
+                    <h3>Trademark Intake</h3>
+                    <p style="margin-bottom:1rem;color:#555;font-size:0.95rem;">Tell us about your mark so we can respond with relevant next steps. Fields marked * are required.</p>
                     <form action="https://formsubmit.co/rafael@recaldelaw.com" method="POST">
-                        <input type="hidden" name="_subject" value="New trademark inquiry">
+                        <input type="hidden" name="_subject" value="New trademark intake — YourTMlawyer">
                         <input type="hidden" name="_next" value="https://yourtmlawyer.com/thank-you.html">
-                        
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" name="name" class="form-control" required>
+
+                        <!-- Honeypot: leave blank -->
+                        <div class="hp-field" aria-hidden="true">
+                            <label for="website">Website</label>
+                            <input type="text" name="website" id="website" tabindex="-1" autocomplete="off">
                         </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" name="email" class="form-control" required>
+
+                        <div class="form-row-2">
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
                         </div>
                         <div class="form-group">
                             <label for="phone">Phone</label>
-                            <input type="tel" name="phone" class="form-control">
+                            <input type="tel" id="phone" name="phone" class="form-control">
                         </div>
                         <div class="form-group">
-                            <label for="service">Service Interested In</label>
-                            <select name="service" class="form-control">
-                                <option value="">Select a service</option>
-                                <option value="search">Trademark Search</option>
-                                <option value="application">Trademark Application</option>
-                                <option value="office-action">Office Action Response</option>
-                                <option value="monitoring">Trademark Monitoring</option>
+                            <label for="proposed_mark">Proposed Mark / Brand Name *</label>
+                            <input type="text" id="proposed_mark" name="proposed_mark" class="form-control" required placeholder="Word mark, logo name, or slogan">
+                        </div>
+                        <div class="form-group">
+                            <label for="goods_services">Goods / Services Description *</label>
+                            <textarea id="goods_services" name="goods_services" class="form-control" required placeholder="What products or services will the mark identify?"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="commerce_status">Commerce Status *</label>
+                            <select id="commerce_status" name="commerce_status" class="form-control" required>
+                                <option value="">Select status</option>
+                                <option value="already_using">Already using in commerce</option>
+                                <option value="planning_to_use">Planning to use</option>
+                                <option value="not_sure">Not sure</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="uspto_status">USPTO Status *</label>
+                            <select id="uspto_status" name="uspto_status" class="form-control" required>
+                                <option value="">Select status</option>
+                                <option value="none">None yet</option>
+                                <option value="searching">Searching / clearing</option>
+                                <option value="already_filed">Already filed</option>
+                                <option value="office_action">Office action received</option>
                                 <option value="other">Other</option>
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea name="message" class="form-control" required></textarea>
+                            <label for="budget">Budget for Attorney Fees *</label>
+                            <select id="budget" name="budget" class="form-control" required>
+                                <option value="">Select range</option>
+                                <option value="under_1k">Under $1,000</option>
+                                <option value="1k_3k">$1,000 – $3,000</option>
+                                <option value="3k_5k">$3,000 – $5,000</option>
+                                <option value="5k_plus">$5,000+</option>
+                                <option value="discuss">Prefer to discuss</option>
+                            </select>
                         </div>
-                        
-                        <button type="submit" class="submit-button">Send Message</button>
+                        <div class="form-group">
+                            <label for="timeline">Timeline *</label>
+                            <select id="timeline" name="timeline" class="form-control" required>
+                                <option value="">Select timeline</option>
+                                <option value="asap">ASAP</option>
+                                <option value="1_3_months">1–3 months</option>
+                                <option value="exploring">Exploring options</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" class="form-control" placeholder="Anything else we should know?"></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-button">Submit Intake</button>
                     </form>
                 </div>
             </div>
@@ -457,7 +514,9 @@
                     <li><a href="blog.html">Blog</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#" class="schedule-button">Contact</a></li>
+                    <li><a href="trademark-search.html">Trademark Search</a></li>
+                    <li><a href="trademark-application.html">Trademark Application</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-column">
@@ -469,7 +528,7 @@
         </div>
         <div class="footer-bottom">
             <div class="copyright">
-                &copy; 2025 Recalde Law. All Rights Reserved.
+                &copy; 2026 Recalde Law Firm, P.A. All Rights Reserved.
             </div>
             <div class="social-links">
                 <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
