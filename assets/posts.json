@@ -1,5 +1,61 @@
 [
   {
+    "title": "How Long Does Trademark Registration Take in 2026?",
+    "date": "October 7, 2026",
+    "description": "Step-by-step USPTO trademark timeline from search to registration, what causes delays, and how Florida businesses can keep applications moving.",
+    "icon": "fas fa-hourglass-half",
+    "url": "blog-posts/how-long-trademark-registration-takes.html"
+  },
+  {
+    "title": "Florida State Trademark vs. Federal Registration",
+    "date": "October 7, 2026",
+    "description": "Compare Florida Chapter 495 trademark registration ($87.50 per class, 5-year term) with federal USPTO registration, and learn when each makes sense.",
+    "icon": "fas fa-flag-usa",
+    "url": "blog-posts/florida-state-trademark-vs-federal-registration.html"
+  },
+  {
+    "title": "Received a Trademark Cease and Desist Letter? What to Do Next",
+    "date": "October 7, 2026",
+    "description": "Got a trademark cease and desist letter? Steps to take: preserve evidence, verify the sender's rights, assess likelihood of confusion, and choose a response.",
+    "icon": "fas fa-envelope-open-text",
+    "url": "blog-posts/received-trademark-cease-and-desist-letter.html"
+  },
+  {
+    "title": "How to Send a Cease and Desist Letter for Trademark Infringement",
+    "date": "October 7, 2026",
+    "description": "How to enforce your trademark with a cease and desist letter: confirm rights, document infringement, draft demands, and avoid declaratory judgment risk.",
+    "icon": "fas fa-gavel",
+    "url": "blog-posts/how-to-send-trademark-cease-and-desist.html"
+  },
+  {
+    "title": "Likelihood of Confusion (2(d)) Refusals: How to Overcome Them",
+    "date": "October 7, 2026",
+    "description": "USPTO Section 2(d) likelihood-of-confusion refusals explained: DuPont factors, arguments, narrowing goods, consent agreements, and challenging citations.",
+    "icon": "fas fa-balance-scale",
+    "url": "blog-posts/likelihood-of-confusion-refusal-2d.html"
+  },
+  {
+    "title": "Intent-to-Use Trademark Applications: Filing Before You Launch",
+    "date": "October 7, 2026",
+    "description": "How intent-to-use (Section 1(b)) trademark applications work: priority, Notice of Allowance, Statement of Use, extensions, and current USPTO fees.",
+    "icon": "fas fa-rocket",
+    "url": "blog-posts/intent-to-use-trademark-application.html"
+  },
+  {
+    "title": "Trademark Registration Cost in 2026: The Total Budget, Not Just USPTO Fees",
+    "date": "October 7, 2026",
+    "description": "Full trademark cost breakdown: $350 per class USPTO base fee, surcharges, search, attorney fees, office actions, and maintenance filings.",
+    "icon": "fas fa-dollar-sign",
+    "url": "blog-posts/trademark-registration-cost-2026.html"
+  },
+  {
+    "title": "Trademarking a Business Name vs. Registering an LLC in Florida",
+    "date": "October 7, 2026",
+    "description": "Registering an LLC on Sunbiz does not give you trademark rights. Learn the difference and how Florida businesses actually protect a business name.",
+    "icon": "fas fa-building",
+    "url": "blog-posts/trademark-business-name-vs-florida-llc.html"
+  },
+  {
     "title": "What a Trademark Office Action Means",
     "date": "October 14, 2026",
     "description": "Plain-English guide to USPTO office actions, deadlines, and response options for brand owners.",
@@ -9,28 +65,28 @@
   {
     "title": "Specimen of Use Pitfalls in Trademark Applications",
     "date": "October 10, 2026",
-    "description": "Avoid common USPTO specimen mistakes—mockups, weak webpages, and mismatched drawings.",
+    "description": "Avoid common USPTO specimen mistakes\u2014mockups, weak webpages, and mismatched drawings.",
     "icon": "fas fa-image",
     "url": "blog-posts/specimen-of-use-pitfalls.html"
   },
   {
     "title": "USPTO Trademark Filing Fees After 2025: The Base Application and Surcharges",
     "date": "October 6, 2026",
-    "description": "How the USPTO’s $350-per-class base application and additional fees have worked since January 18, 2025, and how to avoid surcharges.",
+    "description": "How the USPTO\u2019s $350-per-class base application and additional fees have worked since January 18, 2025, and how to avoid surcharges.",
     "icon": "fas fa-balance-scale",
     "url": "blog-posts/uspto-base-application-surcharges.html"
   },
   {
     "title": "Choosing a Strong Trademark",
     "date": "October 2, 2026",
-    "description": "Fanciful, arbitrary, suggestive, and descriptive marks—how distinctiveness affects registration.",
+    "description": "Fanciful, arbitrary, suggestive, and descriptive marks\u2014how distinctiveness affects registration.",
     "icon": "fas fa-lightbulb",
     "url": "blog-posts/choosing-a-strong-trademark.html"
   },
   {
     "title": "Why You Need a Trademark to Sell on Amazon",
     "date": "June 1, 2025",
-    "description": "Thinking about launching on Amazon? Here's why a registered trademark may be essential—before your first sale.",
+    "description": "Thinking about launching on Amazon? Here's why a registered trademark may be essential\u2014before your first sale.",
     "icon": "fas fa-shopping-cart",
     "url": "blog-posts/why-trademark-amazon.html"
   },
