@@ -1,11 +1,39 @@
 [
   {
+    "title": "What a Trademark Office Action Means",
+    "date": "October 14, 2026",
+    "description": "Plain-English guide to USPTO office actions, deadlines, and response options for brand owners.",
+    "icon": "fas fa-file-signature",
+    "url": "blog-posts/what-an-office-action-means.html"
+  },
+  {
+    "title": "Specimen of Use Pitfalls in Trademark Applications",
+    "date": "October 10, 2026",
+    "description": "Avoid common USPTO specimen mistakes—mockups, weak webpages, and mismatched drawings.",
+    "icon": "fas fa-image",
+    "url": "blog-posts/specimen-of-use-pitfalls.html"
+  },
+  {
+    "title": "USPTO Trademark Filing Fees After 2025: The Base Application and Surcharges",
+    "date": "October 6, 2026",
+    "description": "How the USPTO’s $350-per-class base application and additional fees have worked since January 18, 2025, and how to avoid surcharges.",
+    "icon": "fas fa-balance-scale",
+    "url": "blog-posts/uspto-base-application-surcharges.html"
+  },
+  {
+    "title": "Choosing a Strong Trademark",
+    "date": "October 2, 2026",
+    "description": "Fanciful, arbitrary, suggestive, and descriptive marks—how distinctiveness affects registration.",
+    "icon": "fas fa-lightbulb",
+    "url": "blog-posts/choosing-a-strong-trademark.html"
+  },
+  {
     "title": "Why You Need a Trademark to Sell on Amazon",
     "date": "June 1, 2025",
     "description": "Thinking about launching on Amazon? Here's why a registered trademark may be essential—before your first sale.",
     "icon": "fas fa-shopping-cart",
     "url": "blog-posts/why-trademark-amazon.html"
-  },  
+  },
   {
     "title": "Why Trademark Registration Matters",
     "date": "April 1, 2025",
