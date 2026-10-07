@@ -1,5 +1,61 @@
 [
   {
+    "title": "Foreign-Domiciled Trademark Applicants: Why the USPTO Requires a U.S. Attorney",
+    "date": "October 7, 2026",
+    "description": "The USPTO U.S. counsel rule (37 CFR 2.11) explained: who must hire a U.S.-licensed attorney, how domicile is judged, and what happens if you file without one.",
+    "icon": "fas fa-globe-americas",
+    "url": "blog-posts/us-counsel-rule-foreign-trademark-applicants.html"
+  },
+  {
+    "title": "Trademark Domicile Explained: Principal Place of Business vs. Mailing Address",
+    "date": "October 7, 2026",
+    "description": "What the USPTO means by domicile under 37 CFR 2.2(o) and 2.189, why a mailing address or registered agent is not enough, and the risks of a wrong domicile.",
+    "icon": "fas fa-map-marked-alt",
+    "url": "blog-posts/trademark-domicile-requirement.html"
+  },
+  {
+    "title": "Madrid Protocol Extensions to the U.S. (Section 66(a)): Common Issues",
+    "date": "October 7, 2026",
+    "description": "How a Madrid Protocol request for extension of protection to the U.S. works under Section 66(a), why the basis can't change, Supplemental Register limits, and dependency risk.",
+    "icon": "fas fa-globe",
+    "url": "blog-posts/madrid-protocol-us-extension-section-66a.html"
+  },
+  {
+    "title": "Section 44(e) and 44(d): Using a Foreign Registration or Priority Claim in the U.S.",
+    "date": "October 7, 2026",
+    "description": "How Section 44(e) (foreign registration) and Section 44(d) (six-month priority) U.S. trademark applications work under 37 CFR 2.34, and how they differ from Madrid.",
+    "icon": "fas fa-passport",
+    "url": "blog-posts/section-44e-44d-foreign-registration-priority.html"
+  },
+  {
+    "title": "Why Foreign Applicants' Specimens Get Refused: Proving Use in U.S. Commerce",
+    "date": "October 7, 2026",
+    "description": "Common USPTO specimen refusals for foreign brand owners: no U.S. purchasing path, mockups, altered images, and what's needed at statement of use and Section 8 or 71.",
+    "icon": "fas fa-box-open",
+    "url": "blog-posts/foreign-applicant-specimen-use-in-commerce.html"
+  },
+  {
+    "title": "Trademark Filing Scams: Attorney Credential Misuse and USPTO Sanctions",
+    "date": "October 7, 2026",
+    "description": "The USPTO warns about foreign filing firms paying U.S. attorneys to lend names or sponsor USPTO.gov accounts. How these schemes work and how brand owners can protect themselves.",
+    "icon": "fas fa-user-shield",
+    "url": "blog-posts/trademark-filing-scams-attorney-credential-misuse.html"
+  },
+  {
+    "title": "Keeping a Foreign-Owned U.S. Trademark Alive: Section 8, 71 and 15 Declarations",
+    "date": "October 7, 2026",
+    "description": "Deadlines and traps for maintaining U.S. trademark registrations owned from abroad: Section 8 and Section 71 declarations of use, grace periods, specimens, and Section 15 incontestability.",
+    "icon": "fas fa-calendar-check",
+    "url": "blog-posts/maintaining-us-registration-section-8-71-15.html"
+  },
+  {
+    "title": "Working With U.S. Trademark Associate Counsel: What Foreign Firms Should Expect",
+    "date": "October 7, 2026",
+    "description": "How foreign law firms and agents work with a U.S. trademark associate: instructions, signatures, independent review, docketing, and why credential-lending is off the table.",
+    "icon": "fas fa-handshake",
+    "url": "blog-posts/working-with-us-associate-counsel.html"
+  },
+  {
     "title": "Merely Descriptive Refusals (Section 2(e)(1)) and Acquired Distinctiveness",
     "date": "October 7, 2026",
     "description": "How to respond to a USPTO Section 2(e)(1) merely descriptive refusal: suggestiveness arguments, the Supplemental Register, Section 2(f) acquired distinctiveness, and disclaimers.",
@@ -72,21 +128,21 @@
   {
     "title": "Specimen of Use Pitfalls in Trademark Applications",
     "date": "October 10, 2026",
-    "description": "Avoid common USPTO specimen mistakes\u2014mockups, weak webpages, and mismatched drawings.",
+    "description": "Avoid common USPTO specimen mistakes—mockups, weak webpages, and mismatched drawings.",
     "icon": "fas fa-image",
     "url": "blog-posts/specimen-of-use-pitfalls.html"
   },
   {
     "title": "Choosing a Strong Trademark",
     "date": "October 2, 2026",
-    "description": "Fanciful, arbitrary, suggestive, and descriptive marks\u2014how distinctiveness affects registration.",
+    "description": "Fanciful, arbitrary, suggestive, and descriptive marks—how distinctiveness affects registration.",
     "icon": "fas fa-lightbulb",
     "url": "blog-posts/choosing-a-strong-trademark.html"
   },
   {
     "title": "Why You Need a Trademark to Sell on Amazon",
     "date": "June 1, 2025",
-    "description": "Thinking about launching on Amazon? Here's why a registered trademark may be essential\u2014before your first sale.",
+    "description": "Thinking about launching on Amazon? Here's why a registered trademark may be essential—before your first sale.",
     "icon": "fas fa-shopping-cart",
     "url": "blog-posts/why-trademark-amazon.html"
   },
