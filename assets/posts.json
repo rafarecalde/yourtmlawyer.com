@@ -1,5 +1,19 @@
 [
   {
+    "title": "Merely Descriptive Refusals (Section 2(e)(1)) and Acquired Distinctiveness",
+    "date": "October 7, 2026",
+    "description": "How to respond to a USPTO Section 2(e)(1) merely descriptive refusal: suggestiveness arguments, the Supplemental Register, Section 2(f) acquired distinctiveness, and disclaimers.",
+    "icon": "fas fa-tags",
+    "url": "blog-posts/descriptive-trademark-refusal-acquired-distinctiveness.html"
+  },
+  {
+    "title": "Generic Terms and Genericness in Trademark Law",
+    "date": "October 7, 2026",
+    "description": "Why generic terms can't be trademarks, the USPTO genus test, generic.com terms after Booking.com, and how brands avoid genericide under Lanham Act Section 14(3).",
+    "icon": "fas fa-ban",
+    "url": "blog-posts/generic-terms-trademark-genericness.html"
+  },
+  {
     "title": "How Long Does Trademark Registration Take in 2026?",
     "date": "October 7, 2026",
     "description": "Step-by-step USPTO trademark timeline from search to registration, what causes delays, and how Florida businesses can keep applications moving.",
@@ -9,7 +23,7 @@
   {
     "title": "Florida State Trademark vs. Federal Registration",
     "date": "October 7, 2026",
-    "description": "Compare Florida Chapter 495 trademark registration ($87.50 per class, 5-year term) with federal USPTO registration, and learn when each makes sense.",
+    "description": "Compare Florida Chapter 495 trademark registration with federal USPTO registration: scope, use requirements, term, remedies, and when each makes sense.",
     "icon": "fas fa-flag-usa",
     "url": "blog-posts/florida-state-trademark-vs-federal-registration.html"
   },
@@ -37,16 +51,9 @@
   {
     "title": "Intent-to-Use Trademark Applications: Filing Before You Launch",
     "date": "October 7, 2026",
-    "description": "How intent-to-use (Section 1(b)) trademark applications work: priority, Notice of Allowance, Statement of Use, extensions, and current USPTO fees.",
+    "description": "How intent-to-use (Section 1(b)) trademark applications work: priority, Notice of Allowance, Statement of Use, and extension deadlines.",
     "icon": "fas fa-rocket",
     "url": "blog-posts/intent-to-use-trademark-application.html"
-  },
-  {
-    "title": "Trademark Registration Cost in 2026: The Total Budget, Not Just USPTO Fees",
-    "date": "October 7, 2026",
-    "description": "Full trademark cost breakdown: $350 per class USPTO base fee, surcharges, search, attorney fees, office actions, and maintenance filings.",
-    "icon": "fas fa-dollar-sign",
-    "url": "blog-posts/trademark-registration-cost-2026.html"
   },
   {
     "title": "Trademarking a Business Name vs. Registering an LLC in Florida",
@@ -68,13 +75,6 @@
     "description": "Avoid common USPTO specimen mistakes\u2014mockups, weak webpages, and mismatched drawings.",
     "icon": "fas fa-image",
     "url": "blog-posts/specimen-of-use-pitfalls.html"
-  },
-  {
-    "title": "USPTO Trademark Filing Fees After 2025: The Base Application and Surcharges",
-    "date": "October 6, 2026",
-    "description": "How the USPTO\u2019s $350-per-class base application and additional fees have worked since January 18, 2025, and how to avoid surcharges.",
-    "icon": "fas fa-balance-scale",
-    "url": "blog-posts/uspto-base-application-surcharges.html"
   },
   {
     "title": "Choosing a Strong Trademark",
