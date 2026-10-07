@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | YourTMlawyer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-1020943370"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-1020943370');
+    </script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">⚖️</span>
+        <span>YourTMlawyer</span>
+      </a>
+      <button class="mobile-menu-button" aria-label="Toggle menu">☰</button>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#process">Process</a></li>
+          <li><a href="index.html#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+      <a href="index.html#contact" class="contact-button">Contact Us</a>
+    </div>
+  </header>
+
+  <!-- Hero section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Trademark Law Blog</h1>
+        <div class="hero-buttons">
+          <a href="#" class="contact-button schedule-button">Schedule a Call</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog content -->
+  <div class="blog-container">
+    <div class="blog-posts"></div>
+    <div class="blog-cta">
+      <h2>Need Trademark Assistance?</h2>
+      <p>Schedule a consultation to discuss your trademark needs with our experienced attorneys.</p>
+      <a href="#" class="cta-button schedule-button">Schedule a Consultation</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>Contact</h3>
+          <ul class="footer-contact">
+            <li><i class="fas fa-phone"></i> (305) 792-9100</li>
+            <li><i class="fas fa-envelope"></i> info@recaldelaw.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> 1815 Purdy Ave<br>Miami Beach, FL 33139</li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="#" class="schedule-button">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Latest Articles</h3>
+          <ul class="footer-blog-links">
+            <li><a href="blog.html">Why Trademark Registration Matters</a></li>
+            <li><a href="blog.html">Common Trademark Application Mistakes</a></li>
+            <li><a href="blog.html">International Trademark Protection</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="copyright">
+          &copy; 2025 Recalde Law. All Rights Reserved.
+        </div>
+        <div class="social-links">
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Calendly popup -->
+  <div class="calendly-popup" id="calendly-popup">
+    <div class="calendly-content">
+      <button class="close-calendly" id="close-calendly">&times;</button>
+      <div class="calendly-inline-widget" data-url="https://calendly.com/rafael-recaldelaw/trademark-consultation" style="min-width:320px;height:100%;"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  <script>
+    fetch('assets/posts.json')
+      .then(response => response.json())
+      .then(posts => {
+        const container = document.querySelector('.blog-posts');
+        container.innerHTML = '';
+
+        posts.forEach(post => {
+          const card = document.createElement('div');
+          card.classList.add('blog-post');
+          card.innerHTML = `
+            <div class="blog-post-image">
+              <i class="${post.icon}"></i>
+            </div>
+            <div class="blog-post-content">
+              <div class="blog-post-date">${post.date}</div>
+              <h2>${post.title}</h2>
+              <p>${post.description}</p>
+              <a href="${post.url}">Read More →</a>
+            </div>
+          `;
+          container.appendChild(card);
+        });
+      })
+      .catch(error => {
+        console.error("Error loading blog posts:", error);
+        document.querySelector('.blog-posts').innerHTML = '<p>Unable to load blog posts at this time.</p>';
+      });
+  </script>
+</body>
+</html>
